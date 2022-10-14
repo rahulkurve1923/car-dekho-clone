@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./web.css">
+    <script src="https://kit.fontawesome.com/763b5ef811.js" crossorigin="anonymous"></script>
+     
+    <style>
+        *{
+            margin: 0%;
+        }
+        .back{
+            background-image: url(./pexels-pixabay-531880.jpg);
+            background-size: cover;
+        }
+        .info{
+            width: 70%;
+            height: 100%;
+            background-color: rgba(240, 248, 255, 0.842);
+            margin-top: 20px;
+            margin-left: 150px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgb(211, 81, 33);
+            border-radius: 10px;
+        }
+        .no{
+            font-size: 50px;
+        }
+        h1{
+            margin-left: 150px;
+        }
+        .input{
+            padding: 10px;
+            margin: 15px;
+            padding-right: 100px;
+            border: none;
+            border-radius: 5px;
+        }
+        .input:hover{
+            transform: scale(1.1);
+            transition: .4s;
+        }
+        .feed{
+            padding: 10px;
+            padding-right: 410px;
+            padding-bottom: 40px;
+            border: none;
+            border-radius: 5px;
+        }
+        .feed:hover{
+            transform: scale(1.1);
+            transition: .4s;
+        }
+        .check{
+           margin-right: 15px;
+        }
+        .sub{
+            padding: 10px;
+           font-size: 15px;
+           color: azure;
+            width: 250px;
+            background-color: rgb(228, 84, 74);
+            border: none;
+            border-radius: 5px;
+        }
+        .sub:hover{
+            background-color: rgb(220, 129, 122);
+        }
+        h2{
+            font-size: 30px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="bar">
+        <nav>
+        <ul>
+           <li>
+              <div class="logo">
+                <img src="./Desktop-logo.svg" alt="">
+              </div>
+           </li> 
+           <li>
+            <div>
+                <input type="search"  class="search" placeholder=" Search Cars or Brands.....">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+           </li>
+           <li>
+            <div>
+                <select class="droplang">
+                    <option value="" disabled selected>Language</option>
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+            </div>
+           </li>
+           <li>
+              <p class="login"><i class="fa-regular fa-user"></i><a href="../loginform.html"> Login/Register</a></p>
+           </li>
+        </ul>
+        </nav>
+    </div>
+    
+    <div class="cars">
+        <ul class="list">
+            <li><a href="./website.html"> HOME</a></li>
+            <li><a href="./new.html">NEW CAR</a></li>
+            <li><a href="./used.html"> USED CAR</a></li>
+            <li><a href="./sell.html"> SELL CAR</a></li>
+            <li class="abt"><a href="./about.html"> ABOUT</a></li>
+            <li ><a href="./contact.html"> CONTACT US</a></li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <select class="location">
+                        <option value="" disabled selected>Select location</option>
+                        <option value="" >nagpur</option>
+                        <option value="">mumbai</option>
+                        <option value="">pune</option>
+                        <option value="">banglore</option>
+                        <option value="">delhi</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <hr style="border: 1px;">
+    <div class="back">
+        <br>
+    <div>
+    <h1 style="color: white;">Contact Us</h1>
+    <div class="info">
+        <span>
+            <i class="fa-solid fa-phone"> - Call us</i>
+             <p class="no" style="color: rgb(115, 115, 186);">999 999 9999</p>
+             <br>
+             <div>
+                <i class="fa-regular fa-envelope"> - Mail</i>
+                <br>
+                <p>abc500@gmail.com</p>
+             </div>
+        </span>
+        <br>
+        <center>
+        <div >
+        <span>
+            <h2>Let Us Contact You</h2>
+            <input type="text" class="input" placeholder="Enter Name">
+        </span>
+        <span>
+            <input type="email" class="input" placeholder="Enter Your Email">
+        </span>
+        <br>
+        <span>
+            <input type="text" class="input" placeholder="Enter Your Number">
+        </span>
+        <span>
+            <input type="text" class="input" placeholder="Enter Your City">
+        </span>
+        <br>
+        <span>
+            <input type="text"  class="feed" placeholder="please share your feedback....">
+        </span>
+        <div class="check"><input type="checkbox" class="input" name="" id=""> I agree to terms and condition
+        </div>
+        <button class="sub">Submit</button>
+        </div>  
+        </center>
+    </div>
+    <br>
+    </div>
+</body>
+</html>

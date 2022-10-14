@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new</title>
+    <link rel="stylesheet" href="./web.css">
+    <script src="https://kit.fontawesome.com/763b5ef811.js" crossorigin="anonymous"></script>
+    <style>
+        .back{
+            background-image: url(./pexels-pixabay-531880.jpg);
+            background-size: cover;
+            margin-top: 0%;
+        }
+        .lo{
+            width: 200px; height: 130px;
+            border: .5px solid gray;
+        } 
+        .gallery{
+            display: block;
+            float: left;
+            overflow: hidden;
+            padding: 13px;
+        }
+        .brands{
+            margin-top: 20px;
+            width: 1140px;
+            height: 240px;
+            margin-left: 200px;
+            background-color: rgba(240, 248, 255, 0.826);
+            border-bottom: 1px solid gainsboro;
+            border-radius: 15px;
+        }
+        .price{
+            width: 1140px;
+            height: 390px;
+            margin-left: 200px;
+            background-color: rgba(240, 248, 255, 0.87);
+            border-bottom: 1px solid gainsboro;
+            border-radius: 15px;
+            
+        }
+        .images{
+            width: 260px; height: 160px;
+            border: .5px solid gray;
+        }
+        .strt{
+            display: block;
+            float: left;
+            overflow: hidden;
+            padding: 10px;
+            border: 1px solid gainsboro;
+        }
+        h5{
+            margin-top: 30px;
+            margin-left: 15px;
+            font-size: 17px;
+        }
+        p{
+            margin-top: 7px;
+            margin-left: 15px;
+            font-size: 17px;
+        }
+        .but{
+            padding: 10px;
+            margin-top: 15px;
+            width: 260px;
+            background-color: white;
+            border-color: coral;
+        }
+        .fa-solid{
+            font-size: 14px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <nav>
+        <ul>
+           <li>
+              <div class="logo">
+                <img src="./Desktop-logo.svg" alt="">
+              </div>
+           </li> 
+           <li>
+            <div>
+                <input type="search"  class="search" placeholder=" Search Cars or Brands.....">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+           </li>
+           <li>
+            <div>
+                <select class="droplang">
+                    <option value="" disabled selected>Language</option>
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+            </div>
+           </li>
+           <li>
+              <p class="login"><i class="fa-regular fa-user"></i><a href="../loginform.html"> Login/Register</a></p>
+           </li>
+        </ul>
+        </nav>
+    </div>
+    <div class="cars">
+        <ul class="list">
+            <li><a href="./website.html"> HOME</a></li>
+            <li><a href="./new.html">NEW CAR</a></li>
+            <li><a href="./used.html"> USED CAR</a></li>
+            <li><a href="./sell.html"> SELL CAR</a></li>
+            <li class="abt"><a href="./about.html"> ABOUT</a></li>
+            <li ><a href="./contact.html"> CONTACT US</a></li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <select class="location">
+                        <option value="" disabled selected>Select location</option>
+                        <option value="" >nagpur</option>
+                        <option value="">mumbai</option>
+                        <option value="">pune</option>
+                        <option value="">banglore</option>
+                        <option value="">delhi</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <hr style="border: 1px;">
+    
+    <div class="back">
+        <br>
+    <div class="brands">
+        <h3 style="padding: 15px;">Search New Cars By Brand</h3><br>
+        <hr>
+        <main>
+            <div class="gallery"><a href=""><img src="./tata.jpg" class="lo"></a></div>
+            <div class="gallery"><a href=""><img src="./hyundai.jpg" class="lo" ></a></div>
+            <div class="gallery"><a href=""><img src="./mahindra.jpg"  class="lo"></a></div>
+            <div class="gallery"><a href=""><img src="./toyota.jpg"  class="lo"></a></div>
+            <div class="gallery"><a href=""><img src="./mercedes-benz.jpg"  class="lo"></a></div>
+        </main>
+    </div>
+    <br><br><br>
+    <div class="price">
+        <h3 style="padding: 15px;">New Cars</h3>
+        <hr>
+        <div class="strt">
+            <img src="./front-left-side-47.jpg" class="images">
+            <h5>Maruti Alto K10</h5>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 3.99 - 5.83 Lakh*</p>
+            <button class="but"><a href="https://www.carwale.com/maruti-suzuki-cars/alto-k10/">Get On Road Price</a> </button>
+        </div>
+        <div class="strt">
+            <img src="./side-view-(left)-90.jpg" class="images">
+            <h5>Renolt KWID</h5>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 4.64 - 5.99 Lakh*</p>
+            <button class="but"><a href="https://www.carwale.com/renault-cars/kwid/">Get On Road Price</a> </button>
+        </div>
+        <div class="strt">
+            <img src="./car 11.webp" class="images">
+            <h5>Rolls Royals</h5>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 4.00 - 20.0 Cr*</p>
+            <button class="but"><a href="https://www.carwale.com/rolls-royce-cars/phantom-viii/">Get On Road Price</a> </button>
+        </div>
+        <div class="strt">
+            <img src="./car 7.webp" class="images">
+            <h5>Ford Mustang</h5>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 0.65 - 3.00 Cr*</p>
+            <button class="but"><a href="https://www.cartrade.com/ford-cars/mustang/price-in-mumbai/">Get On Road Price</a> </button>
+        </div>
+    </div>
+    <br>
+</div>
+</body>
+</html>

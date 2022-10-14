@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./web.css">
+    <script src="https://kit.fontawesome.com/763b5ef811.js" crossorigin="anonymous"></script>
+    <style>
+        .back{
+            background-image: url(./pexels-pixabay-531880.jpg);
+            background-size: cover;
+            margin-top: 0%;
+        }
+        .images{
+             
+            width: 250px; height: 180px;
+            border-radius: 5px;
+        }
+        .gallery{
+            display: block;
+            float: left;
+            overflow: hidden;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .filt{
+            width: 70%;
+            height: 110px;
+            background-color: rgba(170, 170, 230, 0.573);
+            text-align: center;
+            margin-left: 170px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        li{
+            float:left;
+            list-style: none;
+            padding: 15px;
+        }
+        .div{
+            width: 80%;
+            height: 600px;
+            background-color: rgba(240, 248, 255, 0.804);
+            margin-left: 200px;
+            border-radius: 30px;
+        }
+        .strt{
+            display: block;
+            float: left;
+            overflow: hidden;
+            padding: 16px;
+            border: 1px solid gray;
+        }
+        .loc{
+            margin-left: 150px;
+            
+        }
+        .bud{
+            margin-left: 100px;
+        }
+        .budget{
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .main{
+            margin-left: 20px;
+        }
+        p{
+            margin-top: 7px;
+            margin-left: 15px;
+            font-size: 17px;
+        }
+        h5{
+            margin-top: 30px;
+            margin-left: 15px;
+            font-size: 17px;
+        }
+        .but{
+            padding: 10px;
+            margin-top: 15px;
+            width: 260px;
+            background-color: white;
+            border-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <nav>
+        <ul>
+           <li>
+              <div class="logo">
+                <img src="./Desktop-logo.svg" alt="">
+              </div>
+           </li> 
+           <li>
+            <div>
+                <input type="search"  class="search" placeholder=" Search Cars or Brands.....">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+           </li>
+           <li>
+            <div>
+                <select class="droplang">
+                    <option value="" disabled selected>Language</option>
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+            </div>
+           </li>
+           <li>
+              <p class="login"><i class="fa-regular fa-user"></i><a href="../loginform.html"> Login/Register</a></p>
+           </li>
+        </ul>
+        </nav>
+    </div>
+    <div class="cars">
+        <ul class="list">
+            <li><a href="./website.html"> HOME</a></li>
+            <li><a href="./new.html">NEW CAR</a></li>
+            <li><a href="./used.html"> USED CAR</a></li>
+            <li><a href="./sell.html"> SELL CAR</a></li>
+            <li class="abt"><a href="./about.html"> ABOUT</a></li>
+            <li ><a href="./contact.html"> CONTACT US</a></li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <select class="location">
+                        <option value="" disabled selected>Select location</option>
+                        <option value="" >nagpur</option>
+                        <option value="">mumbai</option>
+                        <option value="">pune</option>
+                        <option value="">banglore</option>
+                        <option value="">delhi</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <hr style="border: 1px;">
+
+    <div class="back">
+        <br>
+    <div class="div">
+        <div class="filt">
+        <li>
+                <div class="loc">
+                <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
+                <br>
+                <input type="text" placeholder="Enter City" style="padding:10px; border-radius: 10px;">
+                </div>
+        </li>
+        <li>
+            <div class="bud">
+                <h3><i class="fa-solid fa-calculator"></i> Budget</h3>
+                <br>
+                <select class="budget">
+                    <option value=""  disabled selected>Select Range</option>
+                    <option value="">0-2 Lakh</option>
+                    <option value="">2-5 Lakh</option>
+                    <option value="">5-8 Lakh</option>
+                    <option value="">8-15 Lakh</option>
+                    <option value="">15-25 Lakh</option>
+                    <option value="">25+ Lakh</option>
+                </select>
+            </div>
+        </li>
+        </div>
+        <br>
+        <hr>
+        <div class="main">
+            <br>
+            <br>
+             <h2 style="text-align:center;"> Used Cars For Sell</h2>
+             <br>
+            <div class="strt">
+                <img src="./used_car_2578098_1663122614.jpg" class="images">
+                <h5>2017 Volkswagen Polo</h5>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>5.83 Lakh*</p>
+                <button class="but"><a href="">See Seller Detaile's</a> </button>
+            </div>
+            <div class="strt">
+                <img src="./4f544c6df53cb62992d7fe94e90b3783.jpg" class="images">
+                <h5>2019 Tata Altroz</h5>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i> 5.99 Lakh*</p>
+                <button class="but"><a href="">See Seller Detaile's</a> </button>
+            </div>
+            <div class="strt">
+                <img src="./82ec6ecb003d9bb43df45a618f72ad0a.jpg" class="images">
+                <h5>2015 Hyudai I20</h5>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i> 4.00 Lakh*</p>
+                <button class="but"><a href="">See Seller Detaile's</a> </button>
+            </div>
+            <div class="strt">
+                <img src="./VCC_1546570_24_1657534784.jpg" class="images">
+                <h5>2015 Suzuki baleno</h5>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i> 6.50 Lakh*</p>
+                <button class="but"><a href="">See Seller Detaile's</a> </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    </div>
+</body>
+</html>
